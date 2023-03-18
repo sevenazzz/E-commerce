@@ -1,9 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace E_commerce.Entities
 {
     public class Orders
@@ -12,6 +6,6 @@ namespace E_commerce.Entities
         public DateTime Date { get; set; }
         public int Total { get; set; }
         public Clients Client { get; set; }
-
+        public int ClientId { get; set; }
     }
 }
